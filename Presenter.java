@@ -3,6 +3,8 @@ package com.vl.rx.example.presenter;
 import android.support.v4.util.SimpleArrayMap;
 
 /**
+ * Example of MVP Presenter which can survive configuration changes aka screen orientation
+ * 
  * Created by vladlichonos on 5/20/15.
  */
 public abstract class Presenter<V> {
