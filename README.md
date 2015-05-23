@@ -1,2 +1,2 @@
 # MVP
-New Android -> MVP, DI, Unit Testing in Android
+Simple example of MVP Presenter which can survive configuration changes aka screen orientation
