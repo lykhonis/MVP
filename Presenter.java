@@ -17,7 +17,8 @@ public abstract class Presenter<V> {
         onViewAttached(mView = view);
     }
 
-    // retainInstanceState = !getActivity().isFinishing()
+    // retainInstanceState = !getActivity().isFinishing().
+    // UPD: We might need to have a flag from onSaveInstateState instead
     public final void detachView(boolean retainInstanceState) {
         onViewDetached();
         mView = null;
